@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        header{
+            background-color: white;
+            font-weight: bolder;
+            border-radius: 30px;
+            width: 600px;
+            margin: auto;
+        }
+        h1{
+            text-decoration: underline;
+            text-align: center;
+            color: orangered;
+        }
+        a.nav{
+            display: block;
+            height: 20px;
+            color: blue;
+            text-decoration: none;
+            background-color: greenyellow;
+            width: 200px;
+            margin: 0px auto 20px
+        }
+        nav > a:hover{
+            text-decoration: underline;
+            color: red;
+        }
+        p#cabecalho{
+           text-align: center;
+           text-decoration: underline;
+           color: blue;
+        }
+        
+        body{
+            background-color: darkgray;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        main{
+            display:inline-flex;
+            text-align: center;
+        }
+        section#politica{
+            border: 10px solid rgb(2, 253, 22);
+            padding: 10px 10px 30px 10px;
+            margin: 0px;
+            background-color: rgba(36, 233, 85, 0.623);
+            width: 300px;
+            height: 500px;
+            box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.281);
+            border-radius: 30px;
+            
+        }
+        section#politica:hover{
+            border-color: blue;
+        }
+        p#politic{
+            padding-bottom: 15px;
+        }
+        section#tecnologia:hover{
+            border-color: blue;
+        }
+        section#tecnologia{
+            border: 10px solid rgb(2, 253, 22);
+            padding: 10px 10px 30px 10px;
+            margin: 0px;
+            background-color: rgba(36, 233, 85, 0.623);
+            width: 300px;
+            height: 500px;
+            box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.281);
+            border-radius: 30px;
+        }
+        section#futebol:hover{
+            border-color: blue;
+        }
+       section#futebol{
+            border: 10px solid rgb(2, 253, 22);
+            padding: 10px 10px 30px 10px;
+            margin: center;
+            background-color: rgba(36, 233, 85, 0.623);
+            width: 300px;
+            height: 500px;
+            box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.281);
+            border-radius: 30px;
+        }
+        a#p{
+            text-decoration: none;
+            color: black;
+            margin: 0px 85px 0px 70px;
+        }
+        a#t{
+            text-decoration: none;
+            color: black;
+            margin: 0px 85px 0px 0px;
+        }
+        a#f{
+            text-decoration: none;
+            color: black;
+            margin: 0px 0px 0px 0px;
+        }
+        img{
+            height: 300px;
+            width: 300px;
+            border-radius: 30px;
+        }
+        hr{
+            border-color: blue;
+            margin: 10px auto 10px auto;
+        }
+        footer{
+            background-color: white;
+            width: 700px;
+            height: 95px;
+            margin: auto;
+            border-radius: 30px;
+        }
+        footer > p{
+            color: blue;
+            font-family: Arial, Helvetica, sans-serif;
+            display: inline;
+            padding-left: 45px;
+            text-align: center;
+            font-weight: bolder;
+            text-decoration: underline;
+            text-decoration-line: overline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Jornal TeuZ</h1>
+        <nav>
+            <p id="cabecalho">Links para acessar as paginas</p>
+            <a href="#" class="nav">www.ashdvasyha.com</a>
+            <a href="#" class="nav">www.fajfabksfjabfjka.com</a>
+            <a href="#" class="nav">www.askfnalsfjnasf.com</a>
+            <a href="#" class="nav">www.dsnivaldfalsf.com</a>
+        </nav>
+    </header>
+    <hr>
+    <main>
+        <a href="https://youtube.com.br" target="_blank" id="p">
+            <section id="politica">
+                <h2>Politica</h2>
+                <p id="politic">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet eius dolorum neque. Doloremque quas, culpa provident expedita, enim veniam, est tempora iure harum consequatur pariatur facilis aut cum quod repudiandae?</p>
+                <img src="img/imagemP.png" alt="politica" id="politic">
+            </section>
+        </a>
+        <a href="https://facebook.com.br" target="_blank" id="t">
+            <section id="tecnologia">
+                    <h2>Tecnologia</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis consequatur, repudiandae soluta asperiores dolorum, fuga, quisquam nisi cumque ipsam ducimus mollitia laudantium exercitationem excepturi consectetur nulla dolore delectus quidem doloribus.</p>
+                    <img src="img/imagemP.png" alt="tecnologia">
+            </section>
+        </a>
+        
+        <section id="futebol">
+            <a href="https://google.com.br" target="_blank" id="f">
+                <h2>Futebol</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia accusamus enim veniam a nam, eius adipisci architecto doloribus assumenda rem, consequatur quis sunt necessitatibus quaerat reiciendis voluptatem? Sint, delectus vitae.</p>
+                <img src="img/imagemP.png" alt="futebol">
+            </a>
+           </section>
+    </main>
+    <hr>
+    <footer>
+        <h1>Fale Conosco</h1>
+        <p>Nome: Josevaldo</p>
+        <p>Telefone: 35551115</p>
+        <p>E-mail: kajsbfkaf@gmail.com</p>
+    </footer>
+</html>

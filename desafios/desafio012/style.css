@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'passion';
+    src: url('fontes/passionone/PassionOne-Bold.ttf') format('truetype');
+    font-family: 'cordel';
+    src: url('fontes/Sriracha/Sriracha-Regular.ttf') format('truetype');
+
+}
+header{
+    background-color: black;
+    padding: 20px;
+    margin: -10px -10px auto -9px;
+    height: 200px;
+}
+header > p{
+    color: gray;
+    text-align: center;
+    font-size: 15px;
+    margin-top: -40px;
+}
+a:hover{
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+a{
+    color:white;
+    text-decoration: none;
+}
+h1{
+    color: white;
+    font-family: 'passion', Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 4em;
+    
+}
+main  p{
+    font-family: 'cordel', Arial, Helvetica, sans-serif;
+    width: 250px;
+    text-align: left;
+    padding-left: 15px;
+    height: 200px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+#flor{
+    background-image: url('imagens/background001.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    height: 300px;
+    width: 100%;
+    background-position: center right;
+    
+
+}
+#pagina{
+    background-image: url('imagens/background002.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    height: 300px;
+    width: 100%;
+    background-position: center right;
+   
+}
+#grande{
+    padding-bottom: 140px;
+    
+}
+div > p{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.192);
+    height: 210px;
+    
+    
+}
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    width: 100%;
+    height: 40px;
+    margin: 100px 0px -10px -10px;
+    padding: 10px;
+}

@@ -22,14 +22,29 @@
             background-color: gray;
             color: white;
         }
+        caption{
+            background-color: rgba(156, 156, 156, 0.938);
+            font-weight: bolder;
+            padding: 5px;
+            text-decoration: underline;
+        }
+        th{
+            color: black;
+        }
+        tbody > tr:nth-child(even){
+            background-color: lightgray;
+        }
     </style>
 </head>
 <body>
     <h1>Uso de tabelas grandes</h1>
     <table>
+        <caption>
+            População dos Estados do Brasil
+        </caption>
         <thead>
-            <th>Estado</th>
-            <th>População</th>
+            <th scope="col">Estado</th>
+            <th scope="col" style="width: 80px">População</th>
         </thead>
         <tbody>
             <tr>
@@ -142,7 +157,7 @@
             </tr>
         </tbody>
         <tfoot>
-            <th>Total de Habitantes</th>
+            <th scope="row">Total de Habitantes</th>
             <td class="num">213 736 047</td>
         </tfoot>
     </table>
